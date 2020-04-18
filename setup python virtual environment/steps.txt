@@ -1,0 +1,13 @@
+python3 and pip3 installation:
+sudo apt update
+sudo apt -y upgrade
+sudo apt-get install python3
+sudo apt install -y python3-pip
+pip3 install package_name
+sudo apt install build-essential libssl-dev libffi-dev python3-dev
+
+
+python venv installation:
+apt-get install -y python3-venv
+python3 -m venv my_env
+source my-project-env/bin/activate
